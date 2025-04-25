@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.imin.vicescreen.imin_vice_screen'
     compileSdkVersion 31
 
     compileOptions {
